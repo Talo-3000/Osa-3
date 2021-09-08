@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "build:ui": "rm -rf build && cd  \"../FS 2021/Osa 2/puhelinluettelo\" && npm run build --prod && cp -r build \"../../../FS Osa 3\""
+    "build:ui": "rm -rf build && cd  \"../FS 2021/Osa 2/puhelinluettelo\" && npm run build --prod && cp -r build \"../../../FS Osa 3\"",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/Talo-3000/Osa-3#readme",
   "devDependencies": {
+    "eslint": "^7.32.0",
     "nodemon": "^2.0.12"
   },
   "dependencies": {
